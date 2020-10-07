@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+  }
+
+  .flowerBgd {
+    background-image: url(./flowerBgd.jpeg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  }
+
+  .header {
+    display: flex;
+    width: 95%;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0px 25px 0px 25px;
+    justify-content: space-between;
+  }
+
+  .logoSide {
+    display: flex;
+    flex-basis: 20%;
+    margin-top: 35px;
+  }
+
+  .logoImg {
+      height: 20px;
+  }
+
+  .upper {
+      margin-left: 20px;
+      font-size: 22px;
+  }
+
+  .navBar {
+    display: flex;
+   
+  }
+
+  .navLink-Wrapper {
+      margin-left: 50px;
+      padding: 40px;
+  }
+
+ .navLink-Wrapper:hover{
+     transition: 1s;
+    background-color: aqua;
+ } 
+
+  .navLink-Wrapper a {
+    color: black;
+    font-size: 18px;
+  }
+
+  .main {
+      margin-top: 200px;
+      display: flex;
+      justify-content: center;
+      height: 400px;
+      margin-bottom: 200px;
+  }
+
+  .box {
+      width: 20%;
+      background-color: #f3f3f3;
+      margin: 0 50px 0 50px;
+      padding: 40px 10px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .leaf {
+      width: 35px;
+      margin-bottom: 30px;
+  }
+
+  .bic {
+    width: 50px;
+    margin-bottom: 30px;
+  }
+
+  .aero {
+    width: 50px;
+    margin-bottom: 30px;
+  }
+
+  .hello,
+  .welcome,
+  .stay {
+    margin-bottom: 30px;
+  }
+
+  .para1,
+  .para2,
+  .para3 {
+      font-size: 18px;
+      line-height: 30px;
+  }
+
+  .footer {
+    margin-top: 200px;
+  }
+
+  .footer .social .media1 {
+      width: 10px;
+  }
+
+  
+ 
+
+  

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+  }
+
+  .flowerBgd {
+    background-image: url(./flowerBgd.jpeg);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+  }
+
+  .header {
+    display: flex;
+    width: 95%;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 20px 25px 20px 25px;
+    justify-content: space-between;
+  }
+
+  .logoSide {
+    display: flex;
+    flex-basis: 20%;
+  }
+
+  .logoImg {
+      height: 20px;
+  }
+
+  .upper {
+      margin-left: 20px;
+  }
+
+  .navBar {
+    display: flex;
+   
+  }
+
+  .navLink-Wrapper {
+      margin-left: 100px;
+  }
